@@ -1,0 +1,66 @@
+baseURL = "https://agentstack.pages.dev/"
+title   = "AgentStack"
+theme   = "PaperMod"
+
+defaultContentLanguage    = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight       = 1
+    title        = "AgentStack"
+    [languages.en.params]
+      description = "Build AI agents, self-host your stack, earn independently."
+
+  [languages.fr]
+    languageName = "Français"
+    weight       = 2
+    title        = "AgentStack"
+    contentDir   = "content/fr"
+    [languages.fr.params]
+      description = "Construisez des agents IA, hébergez votre stack, gagnez en indépendance."
+
+[params]
+  author        = "AgentStack"
+  defaultTheme  = "auto"
+  ShowReadingTime   = true
+  ShowShareButtons  = true
+  ShowPostNavLinks  = true
+  ShowBreadCrumbs   = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc       = true
+  TocOpen       = false
+
+  [params.homeInfoParams]
+    Title = "Build. Automate. Earn."
+    Content = """
+Welcome to AgentStack — your guide to building AI agents,
+self-hosting your own stack, and generating independent income with AI.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url  = "https://github.com"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url  = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    name       = "Blog"
+    url        = "/posts/"
+    weight     = 1
+  [[menu.main]]
+    name       = "About"
+    url        = "/about/"
+    weight     = 2
+  [[menu.main]]
+    name       = "Tools"
+    url        = "/tools/"
+    weight     = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
