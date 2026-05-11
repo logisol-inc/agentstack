@@ -52,4 +52,4 @@ The full source is available on GitHub. Drop your email below and I will send yo
 
 ---
 
-*Affiliate note: If you want a cheap VPS to run this yourself, [Vultr](https://vultr.com) starts at $2.50/month and gives you $100 free credit.*
+*Affiliate note: If you want a cheap VPS to run this yourself, [Vultr](https://www.vultr.com/?ref=9900298) starts at $2.50/month and gives you $100 free credit.*

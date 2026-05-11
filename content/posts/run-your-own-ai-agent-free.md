@@ -61,7 +61,7 @@ Self-hosting means you manage updates and uptime. If your server goes down, your
 
 If you do not have a server, these are the cheapest reliable options:
 
-- [Vultr](https://vultr.com) — $2.50/month, $100 free credit for new users
+- [Vultr](https://www.vultr.com/?ref=9900298) — $2.50/month, $100 free credit for new users
 - [Hetzner](https://hetzner.com) — 3.29 euros/month, excellent performance
 - [Oracle Cloud Free Tier](https://oracle.com/cloud/free) — genuinely free, 4 ARM cores, 24GB RAM
 
